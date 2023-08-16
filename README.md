@@ -1,4 +1,4 @@
-# Runtime 2200 With Chopsticks
+# Runtime 2200 With Chopsticks Issue
 start a chopsticks server
 ```
 npx @acala-network/chopsticks@latest --version
@@ -22,3 +22,5 @@ ERROR (rpc-author/37585): ExtrinsicFailed
 as comparasion, the following two operations will succeed as expected:
 - transfer with an account that originally has balance (not via storage override)
 - change wasm override to use 2180, restart chopsticks, and transfer with alice
+
+wasm is downloaded from [here](https://github.com/AcalaNetwork/Acala/issues/2581)https://github.com/AcalaNetwork/Acala/issues/2581
